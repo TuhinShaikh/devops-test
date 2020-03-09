@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" thread-count="2" parallel="classes">
+
+    <test name="Regression1">
+        <classes>
+            <class name="InkofeFF"/>
+            <class name="Invokebrowser"/>
+        </classes>
+    </test>
+</suite>
+
